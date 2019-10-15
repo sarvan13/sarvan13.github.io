@@ -1,0 +1,106 @@
+
+	body{
+		background: rgb(230,230,230);
+		color: rgb(100,100,100);
+		font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+		margin: 0px;
+		padding: 0px;
+	}
+	header{
+		background-image: url("SarvanOnMountain.jpg");
+		background-size: 100%;
+		background-position: center;
+		height: 200px;
+		padding: 20px 30px;
+		text-align: center;
+	}
+	header .name a{
+		background-image: url("NameTag.png");
+		background-size: 300px;
+		background-repeat: no-repeat;
+		position: relative;
+		top: -30px;
+		display: inline-block;
+		text-indent: -999999px;
+		height: 90px;
+		width: 300px;
+    }
+	section{
+		background: rgb(230, 230, 230);
+		color: black;
+		padding: 20px;
+		display: flex;
+		flex-direction: row;
+    }
+    section.intro{
+        flex-direction: column;
+        position: center;
+    }
+    section.inProgress{
+        background: rgb(230, 230, 230);
+        color: black;
+        font-size: 20px;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+    }
+    section.competition{
+        position: center;
+        flex-direction: column;
+    }
+    section.competition div{
+        position: center;
+        width: 650px;
+	}
+    div .general{
+        text-align: justify;
+		width: 650px;
+    }
+    .general figure{
+        display: block;
+		margin: 0 auto;
+    }
+	footer{
+		background: white;
+		padding: 10px 20px;
+	}
+	h1{
+		color: black;
+    }
+    h2{
+        color: black
+    }
+    div.title{
+        position: center;
+        width: 500px;
+	}
+	button{
+		background: white;
+		border: none;
+		color: rgb(158,140,260);
+	}
+	div{
+        background:rgb(230, 230, 230);
+		margin: auto;
+    }
+    .teamPart{
+        text-align: justify;
+        width: 650px;
+    }
+    .teamPart figure{
+        display: block;
+        margin: 0 auto;
+    }
+    .teamPart p{
+        clear: left;
+    }
+	ul{
+		margin: 0;
+		padding-top: 70px;
+		list-style-type: none;
+		color: black;
+	}
+	li{
+		display: inline-block;
+		margin-right: 20px;
+	}
