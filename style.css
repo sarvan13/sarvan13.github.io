@@ -15,7 +15,7 @@
 		text-align: center;
 	}
 	header .name a{
-		background-image: url("NameTag.png");
+		background-image: url("NameTag.PNG");
 		background-size: 300px;
 		background-repeat: no-repeat;
 		position: relative;
