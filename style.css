@@ -156,4 +156,27 @@
     }
     .teamPart p{
         clear: left;
-    }
+	}
+	div.about-me{
+		padding-top: 20px;
+		display: flex;
+	}
+	div.me-pic{
+		height: 100%;
+		width: 40%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.me-pic img{
+		width: 100%;
+		height: auto;
+		border-radius: 8%;
+	}
+	div.me-txt{
+		height: 100%;
+		width: 40%;
+		margin-right: 10%;
+	}
+	.me-h1{
+		margin-left: 13%;
+	}
