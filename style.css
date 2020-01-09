@@ -139,6 +139,7 @@
     }
     div.title{
         position: center;
+        text-align: center;
         width: 500px;
 	}
 	div{
@@ -152,6 +153,7 @@
     .teamPart figure{
         display: block;
         margin: 0 auto;
+        text-align: center;
     }
     .teamPart p{
         clear: left;
