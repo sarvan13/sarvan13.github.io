@@ -8,7 +8,7 @@
 		padding: 0px;
 	}
 	body.Home{
-		background: url("SarvanOnMountain.jpg") no-repeat center center fixed;
+		background: url("docs/SarvanOnMountain.jpg") no-repeat center center fixed;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -51,7 +51,7 @@
 		border: 2px solid white;
 	}
 	header{
-		background-image: url("SarvanOnMountain.jpg");
+		background-image: url("docs/SarvanOnMountain.jpg");
 		background-size: 100%;
 		background-position: center;
 		height: 200px;
