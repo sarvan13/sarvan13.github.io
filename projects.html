@@ -22,6 +22,10 @@
    </div>
 
    <section class ="intro">
+    In 2021-2022, 3 classmates and I reached out to some professors at our University to find a physics research project that interested on.
+    We landed on a photonics project with the Quantum Matter Institute. Our sponsor Dr. Jeff Young, wanted us to investigate the theoretical possibility
+    of using silicon photonoic cavities to create a qubit. Thus our job was to do research and model what the cavity would look like, the photon-cavity
+    interactions as well as simulate these interactions. 
 
        <div class="teamPart">
            <figure>
@@ -29,8 +33,10 @@
                <figcaption>Diagram explaining cavity interactions</figcaption>
            </figure>
 
-
-           <p> A full report  <a href="docs/quantum.pdf"> here</a>. 
+           <p>This project was majorly a theoretical investigation with little coding involved other than the simulations of our theoretical models. 
+            A full report of our models and results can be found <a href="docs/quantum.pdf"> here</a>. The introduction of this paper serves appeals to 
+            anyone with some physics background. However, the rest of the paper is geared to our sponsors and thus is heavily focused on the physics 
+            relevant to the project.
            </p>
        </div>
 
@@ -43,16 +49,28 @@
    <section class ="intro">
 
        <div class="teamPart">
+            <p>In 2020-2021 me and 3 of my classmates took on our first capstone which was to create a machine learning model to help classify an extremely rare kaon decay. This project was done in partnership with TRIUMF
+                and our main contact was at the experiment itself at CERN. Our sponsors were physics researchers so they did not have much background knowledge in machine learning. Thus this was my first self directed machine learning
+                project. Without going too much into the physics, we were only given numerical data. So wanted to first reconstruct and visualize what the detections looked like and see if we could use these visualizations in a CNN. 
+                However, there was more data than just those visualizations, so we used a BDT to train off the other data and then combined the two models.
+            </p>
            <figure>
                <img src="docs/kaoncad.PNG" alt="CAD" width="650px" height="350px">
                <figcaption>CAD model I created of the experiment setup at CERN</figcaption>
            </figure>
 
-           <p> Here we can see the Kaon in green and its decay point indicated by the green dot, then we can see the detected particles afterward indicated by the red line</p>
+           <p> Here we can see the Kaon in green and its decay point indicated by the green dot, then we can see the detected particles afterward indicated by the red line. Right after the decay point we see the STRAW detectors which is what 
+            we were trying to visualize given the numerical data. The other detectors present in the experiment were used in the BDT. 
+           </p>
            <figure>
                 <img src="docs/kaoncs.PNG" alt="Cross Sections" width="600px" height="400px">
-                <figcaption>CAD model I created of the experiment setup at CERN</figcaption>
+                <figcaption>Visualization of the STRAW detectors used for the CNN</figcaption>
             </figure>
+
+            <p> In the diagram above you can see a side by side of what the STRAW detectors looked like and what our visualization of the specific straws hit looked like in our CNN. This is what we used to train and we were able to 
+                make a decent model with these visualizations. The main goal of this project was not to get an extremely accurate model but to try to isolate which variables have a larger impact on the predicition. With the BDT we were
+                able to do exactly that. The physicsits then took our results and are now researching what this means for the decay!
+            </p>
 
            <p> A full report on the CNN and BDTs used and their results can be found <a href="docs/KaonClassifier.pdf"> here</a>. This also includes background information on what data was available and 
             a description and explanation of each of the detector parts along with the justifications for the descisons we made. This report was geared towards both our sponsors at TRIUMF/CERN and our 
