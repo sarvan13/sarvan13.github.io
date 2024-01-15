@@ -25,8 +25,8 @@
        <div class="teamPart">
             <p> Since I quit my job, I have had some more time to learn and improve my skills in areas I am more interested in.
                 One of the things that I always wanted to learn was game development. So I took it upon myself to learn Unity and C#
-             by building a 2D platformer. This is my ongoing project that I have been working on for a couple months now. I took a little bit
-            of a break to do some travelling but the project is now back in full swing and the first room is almost complete as shown below! </p>
+             while building a 2D platformer. This is my ongoing project that I have been working on for a couple months now. I took a little bit
+            of a break to do some travelling but the project is now back in full swing and the first room is pretty much  complete as shown below! </p>
            <figure>
                <img src="docs/game1.png" alt="game" width="650px" height="350px">
                <figcaption>Progress on the first scene of the game </figcaption>
@@ -34,12 +34,29 @@
 
            <p>
             Some of the things that I have learnt and implemented are simple UI and health, player/enemy interactions, animations, and triggers. However, 
-            my largest focus has been on player movement. I currently have basic running, sliding, jumping, double jumping and wall jumping implemented. However,
-            I am not yet satisfied with my wall jumping and am currently thinking of ways to improve it. My short term goals to finish this first room is to add 
-            an interactive object that the player can move and an enemy that the player needs to defeat. Once this is done, I believe I will have the structure 
-            in place to make a complete game. Then I can focus on learning about scalability, optimization, and how using OOP to make the game more interactive and have
-            variety.
-           </p>
+            my largest focus has been on player movement. I currently have basic running, sliding, jumping, double jumping and wall jumping implemented. I spent about
+            2 weeks fine tuning the wall jumping and after that I had conisdered this first room complete. My goal was to complete this room and then determine a new goal. 
+            </p>
+
+            <h2> Next Step - GBA Development</h2>
+            <p>
+            After completing the first room of my Unity game, I felt like I had a very basic grasp and understanding of game dev and some of the challenges. So I wanted
+            to set myself a more well defined goal. I also want to include my interest in firmware as well. I spent a couple of weeks thinking about how I could do this 
+            trying out a variety of ideas like creating physical controllers to an arcade cabinet. What I eventually settled on was creating a game for the Gameboy Advanced.
+            </p>
+           
+            <p>
+            Why the Gameboy Advanced? The GBA uses an ARM7TDMI CPU and there aren't any provided libraries to work with. This means that I have to write directly to the registers
+            to make the device display what I want it to. Most of the work is most easily done in C/C++ which are both languages that I am familiar with but want to learn more about. 
+            Furthermore, I have a Gameboy Advanced at my disposal so after I finish working on emulators I can play the game on the real thing! My goal is to create a vertical
+            scrolling platformer (similar to doodle jump) for the GBA.
+            </p>
+
+            <p>
+            Over the last couple weeks a lot of my time has been spent getting my environment set up and doing readings so I can do basic displays. Because of the small form factor
+            and age of the device, there is not much memory to my disposal so optimization is crucial. Some things are also very slow, I cannot simply write to each pixel as the GBA
+            is simply not fast enough. So far I have learned about bit maps, tile modes, scan lines, vblanks, data alignment, page flipping and much more. 
+            </p>
        </div>
 
    </section>
